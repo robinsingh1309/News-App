@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Customised Theme for the News App -->
+    <style name="MyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Primary color of the app (shown in the app bar) -->
+        <item name="colorPrimary">#3B6978</item>
+        <!-- Primary dark color of the app (shown in the status bar) -->
+        <item name="colorPrimaryDark">#040303</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="actionBarStyle">@style/NewsAppBarStyle</item>
+
+    </style>
+
+    <!-- App bar style -->
+    <style name="NewsAppBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Attributes for the Author and Date,time section in the news_item xml layout -->
+    <style name="news_author_and_date_styles">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <!-- Attributes for the Headline and Publication section in the news_item xml layout -->
+    <style name="card_view_heading_and_publication_text_view">
+
+        <item name="android:layout_marginStart">@dimen/card_view_text_view_margin</item>
+        <item name="android:layout_marginTop">@dimen/card_view_text_view_margin</item>
+        <item name="android:layout_marginEnd">@dimen/card_view_text_view_margin</item>
+        <item name="android:layout_marginBottom">@dimen/card_view_text_view_margin</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <!-- Attributes for CardView in the news_item xml layout -->
+    <style name="card_view_margin">
+
+        <item name="android:layout_marginStart">@dimen/card_view_margin</item>
+        <item name="android:layout_marginTop">@dimen/card_view_margin</item>
+        <item name="android:layout_marginEnd">@dimen/card_view_margin</item>
+        <item name="android:layout_marginBottom">@dimen/card_view_margin</item>
+
+    </style>
+
+</resources>

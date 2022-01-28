@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="no_news">No News to Display</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="settings">News Settings</string>
+
+    <!-- Strings For Minimum Page Size Preference -->
+    <string name="settings_min_page_size_key" translatable="false">min_page_size</string>
+    <string name="settings_min_page_size_key_default" translatable="false">20</string>
+    <string name="settings_min_page_size_key_label" translatable="false">Page Size</string>
+
+    <!-- String for the Guardian Api Query -->
+    <string name="format">format</string>
+    <string name="json">json</string>
+    <string name="show_tags">show-tags</string>
+    <string name="contributor">contributor</string>
+    <string name="page_size">page-size</string>
+    <string name="show_fields">show-fields</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="order_date">order-date</string>
+    <string name="last_modified">last-modified</string>
+    <string name="order_by">order-by</string>
+    <string name="newest">newest</string>
+    <string name="api_key">api-key</string>
+    <string name="api_key_value">c60bece2-d513-43c1-8f1b-c884bb1c2d90</string>
+
+</resources>
